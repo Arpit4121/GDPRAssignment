@@ -8,7 +8,7 @@ Once you run this project, you should be able to see the swagger doc.
 Project Angular App_Arpit:
 This is the angular app project which will basically deal with the UI.
 Once you build and run this locally, you should be able to see a basic UI where you will have the option to Add a user and a table which will show the number of users present in the DB.
-Before running the project, make sure you replace the actually API url in the user.service.ts file in the field 'apriUrl' so that your angular app calls the Web APIs.
+Before running the project, make sure to run npm install to include node_modules and also make sure you replace the actually API url in the user.service.ts file in the field 'apriUrl' so that your angular app calls the Web APIs.
 
 GDPR methods used:
  Has Consent field in the User Model - If the user will not check this field before creating a user, it will not save the user info in the DB. However, if the user checks this check box before creating a user, the 
